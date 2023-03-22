@@ -20,3 +20,7 @@ git branch -m <name>
 ```bash
  git commit --amend --reset-author
 ```
+## Generating a local ssh key
+```bash
+ssh-keygen -t ed25519 -C "youremail@example.com" 
+```
