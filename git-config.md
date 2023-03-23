@@ -10,9 +10,11 @@ git config --global init.defaultBranch <name>
 ```bash
 git branch -m <name>
 ```
+## Setting global username
 ```bash
 git config --global user.name "Your username"
-```   
+``` 
+## Setting global email  
 ```bash
  git config --global user.email you@example.com
 ```
