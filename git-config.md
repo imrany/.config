@@ -1,5 +1,6 @@
-hint: Using 'master' as the name for the initial branch. This default branch name
-hint: is subject to change. To configure the initial branch name to use 
+# Git global configurations
+_hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use_
 ## Make a global main branch 
 ```bash
 git config --global init.defaultBranch <name>
@@ -9,8 +10,9 @@ git config --global init.defaultBranch <name>
 ```bash
 git branch -m <name>
 ```
-## git config --global user.name "Your Name"
-   
+```bash
+git config --global user.name "Your username"
+```   
 ```bash
  git config --global user.email you@example.com
 ```
