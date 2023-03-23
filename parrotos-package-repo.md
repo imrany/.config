@@ -12,7 +12,11 @@ Using a repository is fairly simple: For the official Debian repository open /et
 cd /etc/apt
 sudo nano sources.list
 ```
-then paste ```deb http://ftp.debian.org/debian stable main contrib non-free``` then save
+then paste
+
+ ```deb http://ftp.debian.org/debian stable main contrib non-free``` 
+ 
+then save
 then run
 
 ```bash
